@@ -53,6 +53,11 @@
 			<artifactId>spring-boot-starter-web</artifactId><!-- Данной зависимостью мы говорим о том,
       что этот проект является веб - проектом-->
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-jpa</artifactId>
+			<version>2.6.2</version> <!--most popular starter-->
+		</dependency>
 	</dependencies>
 
 	<build>
